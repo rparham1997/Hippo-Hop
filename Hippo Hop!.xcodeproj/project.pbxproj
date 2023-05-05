@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2D9FC823BA924C0006F794 /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D9FC723BA924C0006F794 /* ScoreGenerator.swift */; };
+		7E2D9FCA23BA9B370006F794 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D9FC923BA9B370006F794 /* MainMenu.swift */; };
+		7E2D9FCC23BAA8830006F794 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2D9FCB23BAA8830006F794 /* GameOver.swift */; };
+		7E410BBE23B1D8D100CF1BDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E410BBD23B1D8D100CF1BDB /* AppDelegate.swift */; };
+		7E410BC023B1D8D100CF1BDB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E410BBF23B1D8D100CF1BDB /* GameScene.sks */; };
+		7E410BC223B1D8D100CF1BDB /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7E410BC123B1D8D100CF1BDB /* Actions.sks */; };
+		7E410BC423B1D8D100CF1BDB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E410BC323B1D8D100CF1BDB /* GameScene.swift */; };
+		7E410BC623B1D8D100CF1BDB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E410BC523B1D8D100CF1BDB /* GameViewController.swift */; };
+		7E410BE123B2AABC00CF1BDB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E410BE023B2AABC00CF1BDB /* Launch Screen.storyboard */; };
+		7E410BEA23B2B0B700CF1BDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E410BE923B2B0B700CF1BDB /* Main.storyboard */; };
+		7E410C1123B3349C00CF1BDB /* CGPoint+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E410C1023B3349C00CF1BDB /* CGPoint+Ext.swift */; };
+		7E410C1323B4045200CF1BDB /* CGFloat+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E410C1223B4045200CF1BDB /* CGFloat+Ext.swift */; };
+		7E410C5323B5E1FF00CF1BDB /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E410C5223B5E1FF00CF1BDB /* Types.swift */; };
+		7EF4F86923BEA78300A24190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E410BDC23B2AA8500CF1BDB /* Assets.xcassets */; };
+		7EF4F86B23BEB23500A24190 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF4F86A23BEB23500A24190 /* nanopb.framework */; };
+		7EF4F86D23BEB24100A24190 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF4F86C23BEB24100A24190 /* GoogleUtilities.framework */; };
+		7EF4F86F23BEB3E200A24190 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF4F86E23BEB3E200A24190 /* GoogleMobileAds.framework */; };
+		7EF4F87123BEB3EA00A24190 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EF4F87023BEB3EA00A24190 /* GoogleAppMeasurement.framework */; };
+		D0BE205D37035A0DBE62AB06 /* Pods_Hippo_Hop_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522C24DEDBCB97EE1FD6E7AA /* Pods_Hippo_Hop_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CB60D8E28817EAEBF969FA6 /* Pods-Hippo Hop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hippo Hop.release.xcconfig"; path = "Target Support Files/Pods-Hippo Hop/Pods-Hippo Hop.release.xcconfig"; sourceTree = "<group>"; };
+		522C24DEDBCB97EE1FD6E7AA /* Pods_Hippo_Hop_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hippo_Hop_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E2D9FC723BA924C0006F794 /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
+		7E2D9FC923BA9B370006F794 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		7E2D9FCB23BAA8830006F794 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		7E410BBA23B1D8D100CF1BDB /* Hippo Hop!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hippo Hop!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E410BBD23B1D8D100CF1BDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E410BBF23B1D8D100CF1BDB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		7E410BC123B1D8D100CF1BDB /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		7E410BC323B1D8D100CF1BDB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		7E410BC523B1D8D100CF1BDB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		7E410BDC23B2AA8500CF1BDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7E410BE023B2AABC00CF1BDB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		7E410BE523B2AEB000CF1BDB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E410BE923B2B0B700CF1BDB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		7E410C1023B3349C00CF1BDB /* CGPoint+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Ext.swift"; sourceTree = "<group>"; };
+		7E410C1223B4045200CF1BDB /* CGFloat+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Ext.swift"; sourceTree = "<group>"; };
+		7E410C5223B5E1FF00CF1BDB /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		7EDDDD7923BD871700E1164B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "GoogleMobileAdsSdkiOS-7.53.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		7EF4F86723BD8CB300A24190 /* GoogleMobileAdsSdkiOS-7.53.1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GoogleMobileAdsSdkiOS-7.53.1"; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.53.1"; sourceTree = "<group>"; };
+		7EF4F86A23BEB23500A24190 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF4F86C23BEB24100A24190 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EF4F86E23BEB3E200A24190 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		7EF4F87023BEB3EA00A24190 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "../../Downloads/GoogleMobileAdsSdkiOS-7.53.1/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
+		B2DF739A3B45C2362D83D45A /* Pods-Hippo Hop!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hippo Hop!.debug.xcconfig"; path = "Target Support Files/Pods-Hippo Hop!/Pods-Hippo Hop!.debug.xcconfig"; sourceTree = "<group>"; };
+		B95798E5C27C9AF7229A5C00 /* Pods-Hippo Hop!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hippo Hop!.release.xcconfig"; path = "Target Support Files/Pods-Hippo Hop!/Pods-Hippo Hop!.release.xcconfig"; sourceTree = "<group>"; };
+		D8C1DB41EA34A257C727CA9F /* Pods-Hippo Hop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hippo Hop.debug.xcconfig"; path = "Target Support Files/Pods-Hippo Hop/Pods-Hippo Hop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E410BB723B1D8D000CF1BDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EF4F86D23BEB24100A24190 /* GoogleUtilities.framework in Frameworks */,
+				7EF4F86B23BEB23500A24190 /* nanopb.framework in Frameworks */,
+				7EF4F87123BEB3EA00A24190 /* GoogleAppMeasurement.framework in Frameworks */,
+				7EF4F86F23BEB3E200A24190 /* GoogleMobileAds.framework in Frameworks */,
+				D0BE205D37035A0DBE62AB06 /* Pods_Hippo_Hop_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39EA5BF6F285C8FE5D90CD3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EF4F86C23BEB24100A24190 /* GoogleUtilities.framework */,
+				7EF4F86A23BEB23500A24190 /* nanopb.framework */,
+				7EF4F86E23BEB3E200A24190 /* GoogleMobileAds.framework */,
+				7EF4F87023BEB3EA00A24190 /* GoogleAppMeasurement.framework */,
+				522C24DEDBCB97EE1FD6E7AA /* Pods_Hippo_Hop_.framework */,
+				7EDDDD7923BD871700E1164B /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F3ED38975E93DEAEE5FF55F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8C1DB41EA34A257C727CA9F /* Pods-Hippo Hop.debug.xcconfig */,
+				1CB60D8E28817EAEBF969FA6 /* Pods-Hippo Hop.release.xcconfig */,
+				B2DF739A3B45C2362D83D45A /* Pods-Hippo Hop!.debug.xcconfig */,
+				B95798E5C27C9AF7229A5C00 /* Pods-Hippo Hop!.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E410BB123B1D8D000CF1BDB = {
+			isa = PBXGroup;
+			children = (
+				7EF4F86723BD8CB300A24190 /* GoogleMobileAdsSdkiOS-7.53.1 */,
+				7E410C5123B5E1D900CF1BDB /* Types */,
+				7E410C0F23B3345F00CF1BDB /* Utilities */,
+				7E410BBC23B1D8D100CF1BDB /* Hippo Hop */,
+				7E410BD823B2A07C00CF1BDB /* Supporting */,
+				7E410BBB23B1D8D100CF1BDB /* Products */,
+				4F3ED38975E93DEAEE5FF55F /* Pods */,
+				39EA5BF6F285C8FE5D90CD3E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E410BBB23B1D8D100CF1BDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E410BBA23B1D8D100CF1BDB /* Hippo Hop!.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E410BBC23B1D8D100CF1BDB /* Hippo Hop */ = {
+			isa = PBXGroup;
+			children = (
+				7E410BE523B2AEB000CF1BDB /* Info.plist */,
+				7E410BBD23B1D8D100CF1BDB /* AppDelegate.swift */,
+				7E410BBF23B1D8D100CF1BDB /* GameScene.sks */,
+				7E410BC123B1D8D100CF1BDB /* Actions.sks */,
+				7E410BD623B2A06600CF1BDB /* Controllers */,
+				7E410BD523B2A05500CF1BDB /* Scenes */,
+			);
+			path = "Hippo Hop";
+			sourceTree = "<group>";
+		};
+		7E410BD523B2A05500CF1BDB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7E410BC323B1D8D100CF1BDB /* GameScene.swift */,
+				7E2D9FC923BA9B370006F794 /* MainMenu.swift */,
+				7E2D9FCB23BAA8830006F794 /* GameOver.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		7E410BD623B2A06600CF1BDB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7E410BC523B1D8D100CF1BDB /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7E410BD823B2A07C00CF1BDB /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				7E410BDC23B2AA8500CF1BDB /* Assets.xcassets */,
+				7E410BE023B2AABC00CF1BDB /* Launch Screen.storyboard */,
+				7E410BE923B2B0B700CF1BDB /* Main.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		7E410C0F23B3345F00CF1BDB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E410C1023B3349C00CF1BDB /* CGPoint+Ext.swift */,
+				7E410C1223B4045200CF1BDB /* CGFloat+Ext.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7E410C5123B5E1D900CF1BDB /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				7E410C5223B5E1FF00CF1BDB /* Types.swift */,
+				7E2D9FC723BA924C0006F794 /* ScoreGenerator.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E410BB923B1D8D000CF1BDB /* Hippo Hop! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E410BD223B1D8D300CF1BDB /* Build configuration list for PBXNativeTarget "Hippo Hop!" */;
+			buildPhases = (
+				9AE1E2496BF804AAB9D8C2D1 /* [CP] Check Pods Manifest.lock */,
+				7E410BB623B1D8D000CF1BDB /* Sources */,
+				7E410BB723B1D8D000CF1BDB /* Frameworks */,
+				7E410BB823B1D8D000CF1BDB /* Resources */,
+				F18BB3A1EB51B1799972A7E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hippo Hop!";
+			productName = "Hippo Hop";
+			productReference = 7E410BBA23B1D8D100CF1BDB /* Hippo Hop!.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E410BB223B1D8D000CF1BDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Ramar Parham";
+				TargetAttributes = {
+					7E410BB923B1D8D000CF1BDB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 7E410BB523B1D8D000CF1BDB /* Build configuration list for PBXProject "Hippo Hop!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E410BB123B1D8D000CF1BDB;
+			productRefGroup = 7E410BBB23B1D8D100CF1BDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E410BB923B1D8D000CF1BDB /* Hippo Hop! */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E410BB823B1D8D000CF1BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E410BE123B2AABC00CF1BDB /* Launch Screen.storyboard in Resources */,
+				7E410BC023B1D8D100CF1BDB /* GameScene.sks in Resources */,
+				7E410BEA23B2B0B700CF1BDB /* Main.storyboard in Resources */,
+				7E410BC223B1D8D100CF1BDB /* Actions.sks in Resources */,
+				7EF4F86923BEA78300A24190 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9AE1E2496BF804AAB9D8C2D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hippo Hop!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18BB3A1EB51B1799972A7E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hippo Hop!/Pods-Hippo Hop!-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hippo Hop!/Pods-Hippo Hop!-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hippo Hop!/Pods-Hippo Hop!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E410BB623B1D8D000CF1BDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E410C1123B3349C00CF1BDB /* CGPoint+Ext.swift in Sources */,
+				7E410BC423B1D8D100CF1BDB /* GameScene.swift in Sources */,
+				7E2D9FC823BA924C0006F794 /* ScoreGenerator.swift in Sources */,
+				7E2D9FCC23BAA8830006F794 /* GameOver.swift in Sources */,
+				7E2D9FCA23BA9B370006F794 /* MainMenu.swift in Sources */,
+				7E410BC623B1D8D100CF1BDB /* GameViewController.swift in Sources */,
+				7E410C5323B5E1FF00CF1BDB /* Types.swift in Sources */,
+				7E410C1323B4045200CF1BDB /* CGFloat+Ext.swift in Sources */,
+				7E410BBE23B1D8D100CF1BDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7E410BD023B1D8D300CF1BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E410BD123B1D8D300CF1BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E410BD323B1D8D300CF1BDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DF739A3B45C2362D83D45A /* Pods-Hippo Hop!.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3E5MM8C9V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.53.1",
+				);
+				INFOPLIST_FILE = "Hippo Hop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "parham.ramar.Hippo-Hop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E410BD423B1D8D300CF1BDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95798E5C27C9AF7229A5C00 /* Pods-Hippo Hop!.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N3E5MM8C9V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoogleMobileAdsSdkiOS-7.53.1",
+				);
+				INFOPLIST_FILE = "Hippo Hop/Info.plist";
+				"INFOPLIST_FILE[sdk=*]" = "Hippo Hop/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "parham.ramar.Hippo-Hop";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E410BB523B1D8D000CF1BDB /* Build configuration list for PBXProject "Hippo Hop!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E410BD023B1D8D300CF1BDB /* Debug */,
+				7E410BD123B1D8D300CF1BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E410BD223B1D8D300CF1BDB /* Build configuration list for PBXNativeTarget "Hippo Hop!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E410BD323B1D8D300CF1BDB /* Debug */,
+				7E410BD423B1D8D300CF1BDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E410BB223B1D8D000CF1BDB /* Project object */;
+}
